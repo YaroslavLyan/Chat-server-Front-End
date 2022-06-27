@@ -1,0 +1,14 @@
+.lid-displ {
+    display:none;
+}
+
+.btm-activ {
+    border: none;
+    border-radius: 5px;
+}
+
+.btm-activ :hover{
+    border: none;
+    box-shadow: 3px 3px 3px rgba(15, 15, 15, 0.288);
+    border-radius: 5px;
+}

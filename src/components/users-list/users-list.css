@@ -1,0 +1,22 @@
+
+.button-chat {
+    border: none;
+    border-radius: 5px;
+}
+
+.button-chat :hover{
+    box-shadow: 0 3px 5px 3px rgb(0 0 0 / 18%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 30%); 
+    border-radius: 5px;
+}
+
+.col-message {
+    display: flex;
+    float:right;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.display-none {
+    display: none;
+}
