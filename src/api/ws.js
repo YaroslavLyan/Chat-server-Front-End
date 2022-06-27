@@ -2,7 +2,7 @@
 import { store } from '../store';
 import { sms } from '../reducers/reducer';
 
-const client = new WebSocket('ws://chat-server-morse.herokuapp.com/ws');
+const client = new WebSocket('wss://chat-server-morse.herokuapp.com/ws');
 
 client.onopen = () => {
     console.log('WebSocket Client Connected');
